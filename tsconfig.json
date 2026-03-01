@@ -7,6 +7,10 @@
     "strict": false,
     "skipLibCheck": true,
     "moduleResolution": "node",
-    // Stricter Typechecking Options
-  }
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
